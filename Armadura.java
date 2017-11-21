@@ -6,8 +6,11 @@ public class Armadura extends Item{
 
 //constructor
 
-	public Armadura(){
-
+	public Armadura(int nivel,int defensa,String nombre){
+		this.nivel=nivel;
+		this.defensa=defensa;
+		this.nombre=nombre;
+		this.precio=precio;
 
 
 	}
