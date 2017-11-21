@@ -15,7 +15,14 @@ public class Arma extends Item{
 
 		
 	}
-
+//set dano
+	public void setDano(int dano){
+		this.dano=dano;
+	}
+//get dano
+	public int getDano(){
+		return dano;
+	}
 //set nivel
 
 	public void setNivel(int nivel){
