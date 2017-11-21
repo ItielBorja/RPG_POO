@@ -6,11 +6,12 @@ public class Arma extends Item{
 
 //constructor
 
-	public Arma(int nivel, int dano, int rango,int precio){
+	public Arma(int nivel, int dano, int rango,int precio, String nombre){
 		this.nivel=nivel;
 		this.dano=dano;
 		this.rango=rango;
 		this.precio=precio;
+		this.nombre=nombre;
 
 		
 	}
