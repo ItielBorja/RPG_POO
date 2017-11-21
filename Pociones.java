@@ -5,8 +5,11 @@ public class Pociones extends Item{
 
 //constructor
 
-	public Pociones(){
-
+	public Pociones(int aumento,int precio,String nombre){
+		
+		this.aumento=aumento;
+		this.precio=precio;
+		this.nombre=nombre;
 
 
 	}
