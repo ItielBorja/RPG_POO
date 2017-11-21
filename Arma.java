@@ -1,13 +1,17 @@
 public class Arma extends Item{
 	
 	private int nivel;
-	private int daño;
+	private int dano;
 	private int rango;
+	private int precio;
 
 //constructor
 
-	public Arma(){
-
+	public Arma(int nivel, int dano, int rango,int precio){
+		this.nivel=nivel;
+		this.dano=dano;
+		this.rango=rango;
+		this.precio=precio;
 
 		
 	}
@@ -61,6 +65,14 @@ public class Arma extends Item{
 
 		return rango;
 
+	}
+//get precio
+	public int getPrecio(){
+		return precio;
+	}
+//set precio
+	public void setPrecio(int precio){
+		this.precio=precio;
 	}
 
 
